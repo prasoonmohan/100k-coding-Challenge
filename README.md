@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">This is my perosnal worksheets that I've practiced in my early stage of learning basic Coding covering C and JAVA progamming languages. Thanks to <a href="https://www.youtube.com/c/BrototypeMalayalam/" target="_blank">Brototype</a> who helped me with their valuable resources.</h4>
+<h4 align="center">This is my perosnal worksheets that I've practiced in my early stage of learning basic Coding. This covers progamming languages like C and JAVA. Thanks to <a href="https://www.youtube.com/c/BrototypeMalayalam/" target="_blank">Brototype</a> who helped me with their valuable resources.</h4>
 
 <p align="center">
   <a href="#🛠-overview">Overview</a> •
