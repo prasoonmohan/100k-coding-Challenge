@@ -3,6 +3,7 @@
 
 //calculate simple interest
 
+// simple interset = ( principle amount * interest rate * year)/100
 #include<stdio.h>
 
 int main (void)
