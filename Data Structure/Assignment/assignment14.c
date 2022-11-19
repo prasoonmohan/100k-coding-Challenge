@@ -1,42 +1,32 @@
 #include<stdio.h>
 #include<stdlib.h>
-
-int getarray(int arr[100]);
-
-int displayarray(int a[100],int l);
-
+#include<string.h>
 int main(void)
 {
-int array[100],l;
+    char string[100];
+    int i,flag=0,len;
 
-l=getarray(array);
+   printf("enter a string :");
+   scanf("%s",&string);
 
-displayarray(array,l);
-}
+   len=strlen(string);
+   len--;
 
-int getarray(int arr[100])
-{
-    int i,l;
-   
-    printf("enter the array limit :");
-    scanf("%d",&l);
-
-    printf("enter the array values :\n");
-    for(i=0;i<l;i++)
-    {
-        scanf("%d",&arr[i]);
-    }
-    return l;
-}
-
-int displayarray(int a[100],int l)
-{
-    
-  printf("THE ARRAY IS :\n");
-  for(int i=0;i<l;i++)
-    {
-
-        printf("%d\t",a[i]);
-    }
+  for(i=0;i<len;i++)
+  {
+      if(string[i]!=string[len-i])
+      {
+          flag++;
+          break;
+      }
+  }
+  if(flag==0)
+  {
+      printf("STRING IS PALINDROME.");
+  }
+  else
+  {
+      printf("STRING IS NOT PALINDROME.");
+  }
 
 }
